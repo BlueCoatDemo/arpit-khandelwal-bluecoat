@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ObjectB</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ObjectB</value>
+    </caseValues>
+    <fields>
+        <label><!-- ObjectA --></label>
+        <name>ObjectA__c</name>
+        <relationshipLabel><!-- ObjectB --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- StandardObject1 --></label>
+        <name>StandardObject1__c</name>
+        <relationshipLabel><!-- ObjectB --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
