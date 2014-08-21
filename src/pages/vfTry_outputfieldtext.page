@@ -1,0 +1,14 @@
+<apex:page standardController="Opportunity" tabStyle="Opportunity">
+    <apex:pageBlock >
+    <apex:form >
+        <apex:pageBlockSection title="Opportunity Information">
+            <apex:outputField value="{!opportunity.name}"/>
+            <apex:outputField value="{!opportunity.account.name}">
+                <apex:inlineEditSupport />
+            </apex:outputField>
+            <apex:outputField value="{!opportunity.closeDate}"/>
+            <apex:outputField value="{!opportunity.AccountNew__c}"/>
+        </apex:pageBlockSection>
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

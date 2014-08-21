@@ -1,0 +1,12 @@
+<apex:page standardController="Account">
+    <b> Hello {!$User.FirstName} </b> <br />
+    You are viewing details of {!account.name}
+    <apex:pageBlock title="Custom Output">
+        <apex:pageBlockSection title="Custom Output Section">
+            <apex:outputField value="{!account.name}"/>
+            <apex:outputField value="{!account.owner.name}"/>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    <apex:detail relatedList="false"/>
+    <apex:relatedList list="Cases"/>
+</apex:page>
